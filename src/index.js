@@ -6,7 +6,7 @@ import Product from "./product";
 import About from "./about";
 
 const router = new VueRouter({
-    mode:'history',
+    // mode:'history',
     routes:[
         {path:"/",component:Home},
         {path:"/product",component:Product},
